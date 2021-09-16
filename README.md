@@ -1,1 +1,1 @@
-# user-behavior-extension
+Chrome extension for user behavior
