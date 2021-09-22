@@ -1,5 +1,5 @@
 {
-  "name": "Behaviour Track",
+  "name": "Techwards - Gaditek Naik POC",
   "description": "Building Extension!",
   "version": "1.1",
   "manifest_version": 3,
@@ -7,21 +7,21 @@
   "background": {
     "service_worker": "background.js"
   },
-  "options_page": "options.html",
+  "options_page": "option/options.html",
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "popup/popup.html",
     "default_icon": {
-        "16": "/images/get_started_techwards.png",
-        "32": "/images/get_started_techwards.png",
-        "48": "/images/get_started_techwards.png",
-        "128": "/images/get_started_techwards.png"
+        "16": "/assets/get_started_techwards.png",
+        "32": "/assets/get_started_techwards.png",
+        "48": "/assets/get_started_techwards.png",
+        "128": "/assets/get_started_techwards.png"
     }
   },
   "icons": {
-    "16": "/images/get_started_techwards.png",
-    "32": "/images/get_started_techwards.png",
-    "48": "/images/get_started_techwards.png",
-    "128": "/images/get_started_techwards.png"
+    "16": "/assets/get_started_techwards.png",
+    "32": "/assets/get_started_techwards.png",
+    "48": "/assets/get_started_techwards.png",
+    "128": "/assets/get_started_techwards.png"
   },
   "content_scripts": [
     {
