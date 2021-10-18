@@ -1,13 +1,7 @@
 
-console.log("HELLO THIS IS FINE..")
+var cart_counter = 0;
 
-document.addEventListener('DOMContentLoaded', function() {
-  var share_btn = document.getElementById('share_data');
-  // onClick's logic below:
-  console.log(share_btn);
-  share_btn.addEventListener('click', function() {
-      console.log("WOW");
-      // alert("Hello");
-  });
-
+document.getElementById('add_to_cart-btn')?.addEventListener('click', function() {
+  cart_counter += 1;
+  document.getElementById("add-product").textContent = "Your current products are: " + cart_counter;
 });
